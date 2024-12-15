@@ -1,5 +1,5 @@
 .Sec-3{
-    background-color: rgba(150, 86, 3, 0.89);
+    background-color: rgba(10, 20, 77, 0.89);
     width: 100%;
     }
     
@@ -11,15 +11,15 @@
     }
     
     #ST{
-        color: rgb(62, 201, 20);
+        color: rgb(255, 255, 255);
         border-style:hidden hidden solid hidden;
-        border-color: rgb(255, 166, 0);
+        border-color: rgb(0, 247, 255);
     
         border-width: 2px;
         border-radius: 10px;    
         padding-bottom: 0.2em;
-        padding-left: 1em;
-        padding-right: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
     }
     
     .Sec-3title{
@@ -57,12 +57,12 @@
     
     .cell_title{
         font-weight: bold;
-        color: rgb(30, 255, 0);
-        font-size: 1.3rem;
+        color: rgb(0, 247, 255);
+        font-size: 1.2rem;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         /* border: 2px solid yellowgreen; */
-        border-radius: 20px;
-        background-color: rgba(211, 142, 51, 0.349);
+        border-radius: 10px;
+        background-color: rgba(129, 168, 162, 0.384);
         padding: 0.5em;
     }
     
@@ -78,8 +78,8 @@
     .point{
         color: white;
         /* background-color: rgba(255, 255, 255, 0.616); */
-        margin-top: 1em;
-        margin-bottom: 1em;
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
         /* border: 2px solid cyan; */
         border-radius: 5px;
         padding: 0.5em;
@@ -175,14 +175,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 1em;
+        padding-top: 0.5em;
         padding-left: 2em;
         padding-right: 2em;
     }
     
     #formbutton{
         font-weight: bold;
-        background-color: rgba(132, 168, 129, 0.384);
+        background-color: rgba(129, 168, 162, 0.384);
         text-decoration: none;
         color: aliceblue;
         border-radius: 10px;    
