@@ -35,64 +35,133 @@
         <img id="LOGO" src="content/coner.png">
     </div>
 
-    <div id="Section1">
+    <div id="FormBodyContainer">
 
-        <div id="QC">
-            <div id="quotecellcontainer">
-                <div class="quotecell">
-            
+        <div id="FormBody">
+            <form
+            action="https://formspree.io/f/xpwzvnrn"
+            class="fs-form fs-layout__2-column"
+            target="_top"
+            method="POST"
+          >
+            <fieldset>
+              <div class="fs-field">
+                <label class="fs-label" for="first-name">First Name</label>
+                <input class="fs-input" id="first-name" name="first-name" required />
+              </div>
+              <div class="fs-field">
+                <label class="fs-label" for="last-name">Last Name</label>
+                <input class="fs-input" id="last-name" name="last-name" required />
+                <p class="fs-description">
+                  We&#x27;ll use this to generate your event pass.
+                </p>
+              </div>
+            </fieldset>
+            <fieldset>
+              <div class="fs-field">
+                <label class="fs-label" for="email">Email</label>
+                <input class="fs-input" id="email" name="email" required />
+              </div>
+              <div class="fs-field">
+                <label class="fs-label" for="number">Contact Number</label>
+                <input
+                  class="fs-input"
+                  id="number"
+                  name="number"
+                  placeholder="(000) 000-0000"
+                  required
+                />
+              </div>
+            </fieldset>
+            <!-- <div class="fs-field">
+              <label class="fs-label" for="address">Address (optional)</label>
+              <textarea class="fs-textarea" id="address" name="address"></textarea>
+            </div> -->
+            <fieldset>
+              <!-- <div class="fs-field">
+                <label class="fs-label">
+                  Please check the dates you would be attending
+                </label>
+                <div class="fs-checkbox-group">
+                  <div class="fs-checkbox-field">
+                    <div class="fs-checkbox-wrapper">
+                      <input
+                        class="fs-checkbox"
+                        id="dates-day-1"
+                        name="dates"
+                        required
+                        type="checkbox"
+                        value="day-1"
+                      />
+                    </div>
+                    <div>
+                      <label class="fs-label" for="dates-day-1">Day 1</label>
+                    </div>
+                  </div>
+                  <div class="fs-checkbox-field">
+                    <div class="fs-checkbox-wrapper">
+                      <input
+                        class="fs-checkbox"
+                        id="dates-day-2"
+                        name="dates"
+                        required
+                        type="checkbox"
+                        value="day-2"
+                      />
+                    </div>
+                    <div>
+                      <label class="fs-label" for="dates-day-2">Day 2</label>
+                    </div>
+                  </div>
+                  <div class="fs-checkbox-field">
+                    <div class="fs-checkbox-wrapper">
+                      <input
+                        class="fs-checkbox"
+                        id="dates-day-3"
+                        name="dates"
+                        required
+                        type="checkbox"
+                        value="day-3"
+                      />
+                    </div>
+                    <div>
+                      <label class="fs-label" for="dates-day-3">Day 3</label>
+                    </div>
+                  </div>
                 </div>
-                <div class="quotedetails">
-                    <form>
-                        <div class="quoteheader">
-                            <div class="quotetitle">Get a Free Quote</div>
-                        <div class="quotedescription">Enter your details below</div>
-                        </div>
-                        
-            
-                        <div id="formcontainer" class="firstname">
-                            <label class="label" id="fnamelabel" for="fname">First Name</label>
-                            <input class="input" id="fnameinput" type="text" id="fname" name="fname" placeholder="John">
-                        </div>
-            
-                        <div id="formcontainer" class="lastname">
-                            <label class="label" id="lnamelabel" for="lname">Lastame</label>
-                            <input class="input" id="lnameinput" type="text" id="lname" name="lname" placeholder="Doe">
-                        </div>
-            
-                        <div id="formcontainer" class="phonenumber">
-                            <label class="label" id="pnumberlabel" for="pnumber">Phone Number</label>
-                            <input class="input" id="pnumberinput" type="tel" id="pnumber" name="pnumber" placeholder="555-555-555">
-                        </div>
-            
-                        <div id="formcontainer" class="email">
-                            <label class="label" id="emaillabel" for="email">Email</label>
-                            <input class="input" id="emailinput" type="email" id="email" name="email" placeholder="someone@example.com">                               
-                        </div>
-            
-                        <div id="formcontainer2" class="submitbutton">
-                            <div id="subutt">
-                                <input class="submitinput" type="submit" value="Submit">
-                            </div>
-                            <div id="canbutt">
-                                <a class="submitinput2" href="index.html">Cancel</a>
-                            </div>
+              </div> -->
+              <!-- <div class="fs-field">
+                <label class="fs-label" for="dates">
+                  Please select service
+                </label>
+                <select class="fs-select" id="dates" name="dates">
+                  <option value="Tax Issues & Preparation Services">Tax Issues & Preparation Services</option>
+                  <option value="Business Management Services">Business Management Services</option>
+                  <option value="Business Registration Services">Business Registration Services</option>
+                  <option value="Church & Other Registration Services">Church & Other Registration Services</option>
+                  <option value="Business Certificates Services">Business Certificates Services</option>
+                  <option value="Business Licences Services">Business Licences Services</option>
+                  <option value="Accounting Software">Accounting Software</option>
+                  <option value="Debt Collection">Debt Collection</option>
 
-                        </div>
+                </select>
+              </div> -->
+            </fieldset>
+            <div class="fs-button-group">
 
+              <a href="index.html" class="fs-button2" >Back</button></a> 
 
-                    </form>
-
-                </div>
-            </div>
-
-
+              <button class="fs-button" type="submit">Submit</button>
 
             </div>
-
-
-    </div>
+          </form>
+        
+        </div>
     
+    </div>
+
+
+      
 
 </body>
 
