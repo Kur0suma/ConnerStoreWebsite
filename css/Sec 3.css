@@ -1,0 +1,239 @@
+.Sec-3{
+background-color: black;
+width: 100%;
+display: none;
+}
+
+.Services{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    
+}
+
+#ST{
+    color: rgb(62, 201, 20);
+    border-style:hidden hidden solid hidden;
+    border-color: rgb(255, 166, 0);
+
+    border-width: 2px;
+    border-radius: 10px;    
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.Sec-3title{
+    color: aliceblue;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    
+}
+
+.cell_container{
+    display: flex;
+    justify-content: center	;
+    align-items: left;
+    flex-direction: row;
+    /* border: 2px solid purple; */
+    max-width: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), black);
+   
+}
+
+.cell{
+    background-color: rgba(0, 0, 0, 0.301);
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    /* border: 2px solid rgb(255, 0, 195); */
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 40%;
+    min-width: 40%;
+    padding: 1em;
+    
+}
+
+.cell_title{
+    color: rgb(30, 255, 0);
+    font-size: 1.7rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 2px solid yellowgreen; */
+    border-radius: 20px;
+    background-color: rgba(211, 142, 51, 0.349);
+    padding: 0.5em;
+}
+
+.cell_desc{
+    color: white;
+    font-size: 1.15rem;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: 2px solid yellow; */
+    padding: 1em;
+}
+
+.point{
+    color: white;
+    /* background-color: rgba(255, 255, 255, 0.616); */
+    margin-top: 1em;
+    margin-bottom: 1em;
+    /* border: 2px solid cyan; */
+    border-radius: 5px;
+    padding: 0.5em;
+    
+}
+
+.arrowbullet{
+    height: 2rem;
+    border: 2px solid blue;
+
+}
+
+.pointcontainer{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    border: 2px solid rgb(0, 162, 255);
+}
+
+.serviceimage{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 40%;
+    min-width: 40%;
+    padding: 1em;
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+}
+
+.servicecontainer{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5em;
+}
+
+#servivestitle{
+    background-image: linear-gradient( black,rgba(70, 70, 70, 0));
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.5rem;
+    padding: 3em;
+    /* border: 2px solid blue; */
+}
+
+
+#img1{
+    background-image: url(../content/couple-employees-talking-office-hall.jpg);
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#img2{
+    background-image: url(../content/business-man-banner-concept-with-copy-space-min.jpg);
+    background-position: center;
+    background-size: 120em ;
+    background-repeat: no-repeat;
+
+}
+
+#img3{
+    background-image: url(../content/medium-shot-female-economist-working-office-min.jpg);
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+#img4{
+    background-image: url(../content/african-american-psychologist-talking-partners-couple-therapy-attending-counseling-session-solve-issues-explaining-psychoanalysis-giving-professional-relationship-advice-min.jpg);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.servicebutton{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    
+}
+
+#formbutton{
+    background-color: rgba(132, 168, 129, 0.384);
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;    
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+
+}
+
+#formbutton:hover{
+    background-color: rgba(17, 179, 17, 0.603);
+}
+
+.servicebutton2{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;    
+    padding-top: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+
+#formbutton2{
+    background-color: rgba(132, 168, 129, 0.384);
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 10px;    
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+
+#formbutton2:hover{
+    background-color: rgba(17, 179, 17, 0.603);
+}
+
+#dimcellcontainer{
+    background-color: rgba(0, 0, 0, 0.486);
+
+}
