@@ -1,0 +1,86 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Regular-400.ttf);
+}
+
+#Part-6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vw;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(43, 109, 3, 0.81),rgba(43, 109, 3, 0.662)),
+    url(../business-people-discussion-min.jpg);
+    background-position: top;
+    background-attachment: inherit;
+    background-size: cover;
+}
+
+#P6-Title{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+#P6-Lists{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+}
+
+#P6-List1{
+    margin: 2em;
+    width: 50%;
+}
+
+#P6-List2{
+    margin: 2em;
+    width: 50%;
+
+}
+
+li.list{
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 0.5em;
+    text-align: left;
+    margin-left: 1em;
+    margin-bottom: 1em;
+
+}
+    
+.QuoteButton6{
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 115, 0);
+    border-radius: 5px;
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid rgb(0, 255, 0); */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 2em;
+}
