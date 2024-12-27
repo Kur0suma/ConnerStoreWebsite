@@ -1,0 +1,100 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Regular-400.ttf);
+}
+
+#Part-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50em;
+    width: 100%;
+    background-image: linear-gradient(rgba(55, 53, 53, 0.788),rgba(55, 53, 53, 0.788)),
+    url(../workaholic-african-american-businesswoman-analysing-marketing-statistics-paperwork-min.jpg);
+    background-position: center;
+    background-attachment: inherit;
+    background-size: cover;
+    padding-top: 4em;
+}
+
+#P3-Title{
+    font-family: Montserrat;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 2em;
+}
+
+#P3-cells{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   
+}
+
+.P3-cellcont{
+    width: 20em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+    border-color: white;
+    border-width: 3px;
+    border-style: solid;
+    padding: 1em;
+}
+
+.P3-cell-title{
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 1.7rem;
+    color: rgb(255, 132, 0);
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.P3-cell-desc{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+.gap{
+    width: 25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 3px;
+    border-style: solid;
+    color: rgba(250, 235, 215, 0);
+}
+
+#P3-footer{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 1.5rem;
+    color: rgb(255, 145, 0);
+    text-align: center;
+    margin-top: 1em;
+}

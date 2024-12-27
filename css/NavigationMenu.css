@@ -1,0 +1,124 @@
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-Regular-400.ttf);
+}
+
+.sticky{
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+    width: 100%;
+}
+
+.navMenu{
+    /* border: 2px solid red; */
+    background-color: #F7F7F7;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    max-height: 8em;
+    padding: 0em;
+    position: sticky;
+    width: 100%;
+    height: 4em;
+}
+
+.LogCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: auto;
+}
+
+
+#logoimg{
+    max-height: 7em;
+    width: 80%;
+}
+
+.Navigation{
+    /* border: 2px solid rgb(0, 255, 0); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    min-width: 70%;
+    height: 100%;
+    
+}
+
+.nav{
+    /* border: 2px solid rgb(255, 230, 0); */
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2em;
+    padding: 5px;
+}
+
+
+.navlink{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-weight: 500;
+    color:  rgb(12, 126, 23);
+}
+
+.navlink:hover{
+    color: rgb(255, 166, 0);
+}
+
+.button{
+    min-width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 3px solid antiquewhite; */
+    
+}
+
+#butt{
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style:hidden hidden solid hidden;
+    border-color: rgba(240, 248, 255, 0.596);
+    border-width: 2px;
+    border-radius: 10px;    
+    padding-bottom: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#butt:hover{
+    color:aliceblue;
+    /* background-color: antiquewhite; */
+    border-style:solid;
+    border-color: rgba(250, 235, 215, 0.63);
+    border-width: 2.5px;
+    border-radius: 10px;    
+    padding-bottom: 0.2em;
+    padding-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.dropdowncontainer{
+    display: none;
+}
+
+.mobileNavMenu{
+    display: none;
+}
